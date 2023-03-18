@@ -22,12 +22,12 @@ function calculateMinCost() {
 		let sum=num1+num2;
 		
 		cost+=sum;
-		alert(sum);
+		// alert(sum);
 
 		arr.splice(0,2);
 		arr.push(sum);
 	}
-	// alert(cost);
+	alert(cost);
 	return cost;
 	
   

@@ -27,8 +27,7 @@ function calculateMinCost() {
 		arr.splice(0,2);
 		arr.push(sum);
 	}
-	alert(cost);
-	return cost;
+	document.querySelector("#result").textContent=cost;
 	
   
   
